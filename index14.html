@@ -260,7 +260,7 @@
 </head>
 <body>
     <video autoplay loop muted plays-inline class="video-bg1">
-        <source src="background/video2.mp4" type="video/mp4" higth="">
+        <source src="video2.mp4" type="video/mp4" higth="">
     </video>
     <div class="container">          
         <header>
@@ -381,7 +381,7 @@
 
                 try {
                     // System Prompt: Mentions GROUP 1 as creator.
-                    const systemPrompt = "You are PINTOL, an intelligent problem-solving assistant created by GROUP 1, who is also known as FOOD DELIVERY. You are fluent in Kinyarwanda and English. If a user asks who created you or who made you, you MUST state that your creator is Group 1. When answering, first perform a Google search. Use the search results to provide a quick, efficient, and factual answer. If the user asks in Kinyarwanda, respond fully in Kinyarwanda using the context of the search results.";
+                    const systemPrompt = "You are PINTOL, an intelligent problem-solving assistant created by Seleman, who is also known as RWAGASUNZU Seleman. You are fluent in Kinyarwanda and English. If a user asks who created you or who made you, you MUST state that your creator is Seleman. When answering, first perform a Google search. Use the search results to provide a quick, efficient, and factual answer. If the user asks in Kinyarwanda, respond fully in Kinyarwanda using the context of the search results.";
                     
                     const payload = {
                         contents: [{ parts: [{ text: userQuery }] }],
@@ -463,4 +463,5 @@
         });
     </script>
 </body>
+
 </html>
